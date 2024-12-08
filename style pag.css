@@ -58,12 +58,13 @@
         list-style: none;
         display: flex;
         gap: 20px;
+        
     }
     
     .navbar .menu a {
         color: #fff;
         text-decoration: none;
-        transition: color 0.3s ease;
+        transition: color 1s ease;
     }
     
     .navbar .menu a:hover {
