@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1c1c1c;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Carrinho */
+.carrinho {
+    margin-top: 80px; /* Espaço abaixo da navbar */
+    padding: 20px;
+    text-align: center;
+}
+
+.carrinho h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.produto-carrinho {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.produto-carrinho img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.detalhes {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.preco {
+    color: #4CAF50;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.btn-remover {
+    padding: 10px 20px;
+    background-color: #E53935;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-remover:hover {
+    background-color: #C62828;
+}
+
+.resumo {
+    text-align: left;
+    margin-top: 20px;
+    background: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.resumo .total {
+    color: #4CAF50;
+    font-size: 1.5rem;
+}
+
+.btn-finalizar {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-finalizar:hover {
+    background-color: #388E3C;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #1c1c1c;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer p {
+    color: #fff;
+}
